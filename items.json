@@ -1,0 +1,3033 @@
+[
+  {
+    "idx": 0,
+    "id": 1,
+    "name": "Beach Spot 1",
+    "category": "beach",
+    "city": "Dehradun",
+    "activities": [
+      "sunbathing",
+      "picnic"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 1,
+    "id": 2,
+    "name": "Forest Spot 2",
+    "category": "forest",
+    "city": "Rishikesh",
+    "activities": [
+      "wildlife",
+      "trekking"
+    ],
+    "rating": 4.0,
+    "avg_cost": 0.0,
+    "best_months": [
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 2,
+    "id": 3,
+    "name": "Beach Spot 3",
+    "category": "beach",
+    "city": "Lansdowne",
+    "activities": [
+      "picnic",
+      "sunbathing"
+    ],
+    "rating": 4.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 3,
+    "id": 4,
+    "name": "Mountain Spot 4",
+    "category": "mountain",
+    "city": "Bageshwar",
+    "activities": [
+      "scenic drives",
+      "photography"
+    ],
+    "rating": 3.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 4,
+    "id": 5,
+    "name": "River Spot 5",
+    "category": "river",
+    "city": "Rishikesh",
+    "activities": [
+      "rafting",
+      "kayaking"
+    ],
+    "rating": 4.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 5,
+    "id": 6,
+    "name": "Mountain Spot 6",
+    "category": "mountain",
+    "city": "Nainital",
+    "activities": [
+      "mountain-climbing",
+      "hiking"
+    ],
+    "rating": 3.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 6,
+    "id": 7,
+    "name": "River Spot 7",
+    "category": "river",
+    "city": "Rishikesh",
+    "activities": [
+      "swimming",
+      "rafting"
+    ],
+    "rating": 4.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      5,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 7,
+    "id": 8,
+    "name": "Mountain Spot 8",
+    "category": "mountain",
+    "city": "Rishikesh",
+    "activities": [
+      "mountain-climbing",
+      "scenic drives"
+    ],
+    "rating": 4.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 8,
+    "id": 9,
+    "name": "River Spot 9",
+    "category": "river",
+    "city": "Jim Corbett",
+    "activities": [
+      "rafting",
+      "fishing"
+    ],
+    "rating": 4.8,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 9,
+    "id": 10,
+    "name": "City Spot 10",
+    "category": "city",
+    "city": "Bageshwar",
+    "activities": [
+      "heritage walk",
+      "museums"
+    ],
+    "rating": 3.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 10,
+    "id": 11,
+    "name": "Mountain Spot 11",
+    "category": "mountain",
+    "city": "Kausani",
+    "activities": [
+      "mountain-climbing",
+      "photography"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 11,
+    "id": 12,
+    "name": "River Spot 12",
+    "category": "river",
+    "city": "Dehradun",
+    "activities": [
+      "kayaking",
+      "rafting"
+    ],
+    "rating": 4.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      5,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 12,
+    "id": 13,
+    "name": "Beach Spot 13",
+    "category": "beach",
+    "city": "Mussoorie",
+    "activities": [
+      "river-side relax",
+      "photography"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 13,
+    "id": 14,
+    "name": "Forest Spot 14",
+    "category": "forest",
+    "city": "Kausani",
+    "activities": [
+      "hiking",
+      "trekking"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 14,
+    "id": 15,
+    "name": "River Spot 15",
+    "category": "river",
+    "city": "Kausani",
+    "activities": [
+      "rafting",
+      "fishing"
+    ],
+    "rating": 3.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 15,
+    "id": 16,
+    "name": "Forest Spot 16",
+    "category": "forest",
+    "city": "Haridwar",
+    "activities": [
+      "wildlife",
+      "trekking"
+    ],
+    "rating": 4.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 16,
+    "id": 17,
+    "name": "Beach Spot 17",
+    "category": "beach",
+    "city": "Chopta",
+    "activities": [
+      "sunbathing",
+      "photography"
+    ],
+    "rating": 3.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 17,
+    "id": 18,
+    "name": "Beach Spot 18",
+    "category": "beach",
+    "city": "Rishikesh",
+    "activities": [
+      "photography",
+      "sunbathing"
+    ],
+    "rating": 3.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 18,
+    "id": 19,
+    "name": "River Spot 19",
+    "category": "river",
+    "city": "Mussoorie",
+    "activities": [
+      "fishing",
+      "kayaking"
+    ],
+    "rating": 3.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 19,
+    "id": 20,
+    "name": "Beach Spot 20",
+    "category": "beach",
+    "city": "Nainital",
+    "activities": [
+      "photography",
+      "picnic"
+    ],
+    "rating": 3.8,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 20,
+    "id": 21,
+    "name": "River Spot 21",
+    "category": "river",
+    "city": "Chopta",
+    "activities": [
+      "swimming",
+      "rafting"
+    ],
+    "rating": 4.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 21,
+    "id": 22,
+    "name": "River Spot 22",
+    "category": "river",
+    "city": "Nainital",
+    "activities": [
+      "fishing",
+      "rafting"
+    ],
+    "rating": 3.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 22,
+    "id": 23,
+    "name": "River Spot 23",
+    "category": "river",
+    "city": "Bageshwar",
+    "activities": [
+      "swimming",
+      "rafting"
+    ],
+    "rating": 3.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      5,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 23,
+    "id": 24,
+    "name": "Mountain Spot 24",
+    "category": "mountain",
+    "city": "Almora",
+    "activities": [
+      "hiking",
+      "scenic drives"
+    ],
+    "rating": 3.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 24,
+    "id": 25,
+    "name": "Mountain Spot 25",
+    "category": "mountain",
+    "city": "Mussoorie",
+    "activities": [
+      "hiking",
+      "scenic drives"
+    ],
+    "rating": 4.8,
+    "avg_cost": 0.0,
+    "best_months": [
+      6,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 25,
+    "id": 26,
+    "name": "Beach Spot 26",
+    "category": "beach",
+    "city": "Nainital",
+    "activities": [
+      "river-side relax",
+      "picnic"
+    ],
+    "rating": 3.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 26,
+    "id": 27,
+    "name": "Mountain Spot 27",
+    "category": "mountain",
+    "city": "Kausani",
+    "activities": [
+      "hiking",
+      "mountain-climbing"
+    ],
+    "rating": 4.0,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 27,
+    "id": 28,
+    "name": "Mountain Spot 28",
+    "category": "mountain",
+    "city": "Nainital",
+    "activities": [
+      "mountain-climbing",
+      "scenic drives"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 28,
+    "id": 29,
+    "name": "River Spot 29",
+    "category": "river",
+    "city": "Nainital",
+    "activities": [
+      "kayaking",
+      "swimming"
+    ],
+    "rating": 3.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 29,
+    "id": 30,
+    "name": "City Spot 30",
+    "category": "city",
+    "city": "Bageshwar",
+    "activities": [
+      "heritage walk",
+      "shopping"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      3,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 30,
+    "id": 31,
+    "name": "Mountain Spot 31",
+    "category": "mountain",
+    "city": "Nainital",
+    "activities": [
+      "scenic drives",
+      "mountain-climbing"
+    ],
+    "rating": 4.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 31,
+    "id": 32,
+    "name": "Forest Spot 32",
+    "category": "forest",
+    "city": "Dehradun",
+    "activities": [
+      "trekking",
+      "birdwatching"
+    ],
+    "rating": 4.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 32,
+    "id": 33,
+    "name": "Beach Spot 33",
+    "category": "beach",
+    "city": "Mussoorie",
+    "activities": [
+      "photography",
+      "river-side relax"
+    ],
+    "rating": 4.8,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 33,
+    "id": 34,
+    "name": "River Spot 34",
+    "category": "river",
+    "city": "Kausani",
+    "activities": [
+      "rafting",
+      "swimming"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 34,
+    "id": 35,
+    "name": "Forest Spot 35",
+    "category": "forest",
+    "city": "Auli",
+    "activities": [
+      "birdwatching",
+      "trekking"
+    ],
+    "rating": 3.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 35,
+    "id": 36,
+    "name": "City Spot 36",
+    "category": "city",
+    "city": "Valley of Flowers",
+    "activities": [
+      "shopping",
+      "museums"
+    ],
+    "rating": 3.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 36,
+    "id": 37,
+    "name": "Mountain Spot 37",
+    "category": "mountain",
+    "city": "Almora",
+    "activities": [
+      "scenic drives",
+      "hiking"
+    ],
+    "rating": 3.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 37,
+    "id": 38,
+    "name": "Mountain Spot 38",
+    "category": "mountain",
+    "city": "Rishikesh",
+    "activities": [
+      "photography",
+      "mountain-climbing"
+    ],
+    "rating": 4.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 38,
+    "id": 39,
+    "name": "City Spot 39",
+    "category": "city",
+    "city": "Almora",
+    "activities": [
+      "food-tour",
+      "heritage walk"
+    ],
+    "rating": 3.8,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 39,
+    "id": 40,
+    "name": "River Spot 40",
+    "category": "river",
+    "city": "Auli",
+    "activities": [
+      "kayaking",
+      "swimming"
+    ],
+    "rating": 4.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 40,
+    "id": 41,
+    "name": "Forest Spot 41",
+    "category": "forest",
+    "city": "Mukteshwar",
+    "activities": [
+      "hiking",
+      "birdwatching"
+    ],
+    "rating": 4.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 41,
+    "id": 42,
+    "name": "Mountain Spot 42",
+    "category": "mountain",
+    "city": "Kausani",
+    "activities": [
+      "photography",
+      "mountain-climbing"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 42,
+    "id": 43,
+    "name": "Beach Spot 43",
+    "category": "beach",
+    "city": "Rishikesh",
+    "activities": [
+      "photography",
+      "sunbathing"
+    ],
+    "rating": 4.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 43,
+    "id": 44,
+    "name": "City Spot 44",
+    "category": "city",
+    "city": "Mukteshwar",
+    "activities": [
+      "museums",
+      "food-tour"
+    ],
+    "rating": 4.8,
+    "avg_cost": 0.0,
+    "best_months": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 44,
+    "id": 45,
+    "name": "City Spot 45",
+    "category": "city",
+    "city": "Valley of Flowers",
+    "activities": [
+      "heritage walk",
+      "museums"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 45,
+    "id": 46,
+    "name": "Mountain Spot 46",
+    "category": "mountain",
+    "city": "Jim Corbett",
+    "activities": [
+      "scenic drives",
+      "hiking"
+    ],
+    "rating": 3.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 46,
+    "id": 47,
+    "name": "Beach Spot 47",
+    "category": "beach",
+    "city": "Auli",
+    "activities": [
+      "river-side relax",
+      "sunbathing"
+    ],
+    "rating": 3.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 47,
+    "id": 48,
+    "name": "City Spot 48",
+    "category": "city",
+    "city": "Chopta",
+    "activities": [
+      "museums",
+      "food-tour"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      10,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 48,
+    "id": 49,
+    "name": "City Spot 49",
+    "category": "city",
+    "city": "Jim Corbett",
+    "activities": [
+      "heritage walk",
+      "shopping"
+    ],
+    "rating": 4.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 49,
+    "id": 50,
+    "name": "Mountain Spot 50",
+    "category": "mountain",
+    "city": "Dehradun",
+    "activities": [
+      "mountain-climbing",
+      "photography"
+    ],
+    "rating": 4.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 50,
+    "id": 51,
+    "name": "Mountain Spot 51",
+    "category": "mountain",
+    "city": "Bageshwar",
+    "activities": [
+      "mountain-climbing",
+      "hiking"
+    ],
+    "rating": 4.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 51,
+    "id": 52,
+    "name": "City Spot 52",
+    "category": "city",
+    "city": "Bageshwar",
+    "activities": [
+      "shopping",
+      "food-tour"
+    ],
+    "rating": 4.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 52,
+    "id": 53,
+    "name": "Mountain Spot 53",
+    "category": "mountain",
+    "city": "Kausani",
+    "activities": [
+      "mountain-climbing",
+      "scenic drives"
+    ],
+    "rating": 3.0,
+    "avg_cost": 0.0,
+    "best_months": [
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 53,
+    "id": 54,
+    "name": "City Spot 54",
+    "category": "city",
+    "city": "Lansdowne",
+    "activities": [
+      "heritage walk",
+      "shopping"
+    ],
+    "rating": 3.0,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 54,
+    "id": 55,
+    "name": "City Spot 55",
+    "category": "city",
+    "city": "Haridwar",
+    "activities": [
+      "shopping",
+      "museums"
+    ],
+    "rating": 3.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 55,
+    "id": 56,
+    "name": "Mountain Spot 56",
+    "category": "mountain",
+    "city": "Nainital",
+    "activities": [
+      "scenic drives",
+      "photography"
+    ],
+    "rating": 3.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 56,
+    "id": 57,
+    "name": "City Spot 57",
+    "category": "city",
+    "city": "Mussoorie",
+    "activities": [
+      "museums",
+      "food-tour"
+    ],
+    "rating": 4.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 57,
+    "id": 58,
+    "name": "Beach Spot 58",
+    "category": "beach",
+    "city": "Nainital",
+    "activities": [
+      "photography",
+      "picnic"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 58,
+    "id": 59,
+    "name": "River Spot 59",
+    "category": "river",
+    "city": "Jim Corbett",
+    "activities": [
+      "rafting",
+      "fishing"
+    ],
+    "rating": 3.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 59,
+    "id": 60,
+    "name": "Beach Spot 60",
+    "category": "beach",
+    "city": "Nainital",
+    "activities": [
+      "photography",
+      "river-side relax"
+    ],
+    "rating": 3.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 60,
+    "id": 61,
+    "name": "Mountain Spot 61",
+    "category": "mountain",
+    "city": "Valley of Flowers",
+    "activities": [
+      "hiking",
+      "scenic drives"
+    ],
+    "rating": 4.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 61,
+    "id": 62,
+    "name": "Mountain Spot 62",
+    "category": "mountain",
+    "city": "Mukteshwar",
+    "activities": [
+      "photography",
+      "scenic drives"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      6,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 62,
+    "id": 63,
+    "name": "Mountain Spot 63",
+    "category": "mountain",
+    "city": "Kausani",
+    "activities": [
+      "scenic drives",
+      "hiking"
+    ],
+    "rating": 4.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      6,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 63,
+    "id": 64,
+    "name": "River Spot 64",
+    "category": "river",
+    "city": "Bageshwar",
+    "activities": [
+      "fishing",
+      "kayaking"
+    ],
+    "rating": 4.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 64,
+    "id": 65,
+    "name": "City Spot 65",
+    "category": "city",
+    "city": "Mussoorie",
+    "activities": [
+      "heritage walk",
+      "shopping"
+    ],
+    "rating": 3.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      2,
+      3,
+      6,
+      7,
+      8,
+      10,
+      11
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 65,
+    "id": 66,
+    "name": "Mountain Spot 66",
+    "category": "mountain",
+    "city": "Auli",
+    "activities": [
+      "mountain-climbing",
+      "scenic drives"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 66,
+    "id": 67,
+    "name": "City Spot 67",
+    "category": "city",
+    "city": "Lansdowne",
+    "activities": [
+      "food-tour",
+      "shopping"
+    ],
+    "rating": 3.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      2,
+      5,
+      6,
+      8,
+      11
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 67,
+    "id": 68,
+    "name": "River Spot 68",
+    "category": "river",
+    "city": "Jim Corbett",
+    "activities": [
+      "fishing",
+      "swimming"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 68,
+    "id": 69,
+    "name": "City Spot 69",
+    "category": "city",
+    "city": "Mukteshwar",
+    "activities": [
+      "heritage walk",
+      "food-tour"
+    ],
+    "rating": 4.0,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      3,
+      4,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 69,
+    "id": 70,
+    "name": "Beach Spot 70",
+    "category": "beach",
+    "city": "Haridwar",
+    "activities": [
+      "photography",
+      "river-side relax"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 70,
+    "id": 71,
+    "name": "City Spot 71",
+    "category": "city",
+    "city": "Almora",
+    "activities": [
+      "heritage walk",
+      "museums"
+    ],
+    "rating": 4.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 71,
+    "id": 72,
+    "name": "Mountain Spot 72",
+    "category": "mountain",
+    "city": "Mukteshwar",
+    "activities": [
+      "mountain-climbing",
+      "photography"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 72,
+    "id": 73,
+    "name": "Beach Spot 73",
+    "category": "beach",
+    "city": "Almora",
+    "activities": [
+      "picnic",
+      "photography"
+    ],
+    "rating": 4.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 73,
+    "id": 74,
+    "name": "Mountain Spot 74",
+    "category": "mountain",
+    "city": "Chopta",
+    "activities": [
+      "mountain-climbing",
+      "scenic drives"
+    ],
+    "rating": 4.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 74,
+    "id": 75,
+    "name": "Beach Spot 75",
+    "category": "beach",
+    "city": "Almora",
+    "activities": [
+      "picnic",
+      "river-side relax"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 75,
+    "id": 76,
+    "name": "River Spot 76",
+    "category": "river",
+    "city": "Jim Corbett",
+    "activities": [
+      "kayaking",
+      "fishing"
+    ],
+    "rating": 4.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 76,
+    "id": 77,
+    "name": "City Spot 77",
+    "category": "city",
+    "city": "Chopta",
+    "activities": [
+      "shopping",
+      "heritage walk"
+    ],
+    "rating": 3.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 77,
+    "id": 78,
+    "name": "Mountain Spot 78",
+    "category": "mountain",
+    "city": "Almora",
+    "activities": [
+      "photography",
+      "scenic drives"
+    ],
+    "rating": 4.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 78,
+    "id": 79,
+    "name": "Mountain Spot 79",
+    "category": "mountain",
+    "city": "Dehradun",
+    "activities": [
+      "photography",
+      "mountain-climbing"
+    ],
+    "rating": 5.0,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      6,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 79,
+    "id": 80,
+    "name": "Mountain Spot 80",
+    "category": "mountain",
+    "city": "Rishikesh",
+    "activities": [
+      "scenic drives",
+      "mountain-climbing"
+    ],
+    "rating": 4.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 80,
+    "id": 81,
+    "name": "Forest Spot 81",
+    "category": "forest",
+    "city": "Mussoorie",
+    "activities": [
+      "birdwatching",
+      "trekking"
+    ],
+    "rating": 4.8,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 81,
+    "id": 82,
+    "name": "Forest Spot 82",
+    "category": "forest",
+    "city": "Haridwar",
+    "activities": [
+      "hiking",
+      "trekking"
+    ],
+    "rating": 4.8,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      5,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 82,
+    "id": 83,
+    "name": "City Spot 83",
+    "category": "city",
+    "city": "Mukteshwar",
+    "activities": [
+      "shopping",
+      "museums"
+    ],
+    "rating": 4.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 83,
+    "id": 84,
+    "name": "River Spot 84",
+    "category": "river",
+    "city": "Kausani",
+    "activities": [
+      "rafting",
+      "fishing"
+    ],
+    "rating": 3.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 84,
+    "id": 85,
+    "name": "City Spot 85",
+    "category": "city",
+    "city": "Mussoorie",
+    "activities": [
+      "museums",
+      "food-tour"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 85,
+    "id": 86,
+    "name": "Mountain Spot 86",
+    "category": "mountain",
+    "city": "Dehradun",
+    "activities": [
+      "scenic drives",
+      "photography"
+    ],
+    "rating": 4.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 86,
+    "id": 87,
+    "name": "Beach Spot 87",
+    "category": "beach",
+    "city": "Jim Corbett",
+    "activities": [
+      "sunbathing",
+      "photography"
+    ],
+    "rating": 3.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 87,
+    "id": 88,
+    "name": "Forest Spot 88",
+    "category": "forest",
+    "city": "Lansdowne",
+    "activities": [
+      "wildlife",
+      "birdwatching"
+    ],
+    "rating": 4.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 88,
+    "id": 89,
+    "name": "Forest Spot 89",
+    "category": "forest",
+    "city": "Nainital",
+    "activities": [
+      "hiking",
+      "wildlife"
+    ],
+    "rating": 4.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 89,
+    "id": 90,
+    "name": "Mountain Spot 90",
+    "category": "mountain",
+    "city": "Dehradun",
+    "activities": [
+      "photography",
+      "mountain-climbing"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      6,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 90,
+    "id": 91,
+    "name": "Beach Spot 91",
+    "category": "beach",
+    "city": "Almora",
+    "activities": [
+      "sunbathing",
+      "photography"
+    ],
+    "rating": 4.0,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 91,
+    "id": 92,
+    "name": "City Spot 92",
+    "category": "city",
+    "city": "Chopta",
+    "activities": [
+      "shopping",
+      "food-tour"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 92,
+    "id": 93,
+    "name": "City Spot 93",
+    "category": "city",
+    "city": "Kausani",
+    "activities": [
+      "heritage walk",
+      "food-tour"
+    ],
+    "rating": 4.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 93,
+    "id": 94,
+    "name": "Mountain Spot 94",
+    "category": "mountain",
+    "city": "Chopta",
+    "activities": [
+      "hiking",
+      "mountain-climbing"
+    ],
+    "rating": 3.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      6,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 94,
+    "id": 95,
+    "name": "Forest Spot 95",
+    "category": "forest",
+    "city": "Kausani",
+    "activities": [
+      "trekking",
+      "birdwatching"
+    ],
+    "rating": 3.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 95,
+    "id": 96,
+    "name": "Mountain Spot 96",
+    "category": "mountain",
+    "city": "Auli",
+    "activities": [
+      "hiking",
+      "mountain-climbing"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      5,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 96,
+    "id": 97,
+    "name": "Mountain Spot 97",
+    "category": "mountain",
+    "city": "Bageshwar",
+    "activities": [
+      "scenic drives",
+      "hiking"
+    ],
+    "rating": 3.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      6,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 97,
+    "id": 98,
+    "name": "Mountain Spot 98",
+    "category": "mountain",
+    "city": "Auli",
+    "activities": [
+      "mountain-climbing",
+      "scenic drives"
+    ],
+    "rating": 3.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 98,
+    "id": 99,
+    "name": "River Spot 99",
+    "category": "river",
+    "city": "Rishikesh",
+    "activities": [
+      "rafting",
+      "fishing"
+    ],
+    "rating": 3.8,
+    "avg_cost": 0.0,
+    "best_months": [
+      5,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 99,
+    "id": 100,
+    "name": "Beach Spot 100",
+    "category": "beach",
+    "city": "Chopta",
+    "activities": [
+      "picnic",
+      "sunbathing"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 100,
+    "id": 101,
+    "name": "City Spot 101",
+    "category": "city",
+    "city": "Mussoorie",
+    "activities": [
+      "food-tour",
+      "heritage walk"
+    ],
+    "rating": 3.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 101,
+    "id": 102,
+    "name": "Mountain Spot 102",
+    "category": "mountain",
+    "city": "Haridwar",
+    "activities": [
+      "scenic drives",
+      "hiking"
+    ],
+    "rating": 3.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 102,
+    "id": 103,
+    "name": "City Spot 103",
+    "category": "city",
+    "city": "Dehradun",
+    "activities": [
+      "museums",
+      "food-tour"
+    ],
+    "rating": 3.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      4,
+      5,
+      7,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 103,
+    "id": 104,
+    "name": "City Spot 104",
+    "category": "city",
+    "city": "Mukteshwar",
+    "activities": [
+      "food-tour",
+      "heritage walk"
+    ],
+    "rating": 4.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 104,
+    "id": 105,
+    "name": "Beach Spot 105",
+    "category": "beach",
+    "city": "Kausani",
+    "activities": [
+      "sunbathing",
+      "photography"
+    ],
+    "rating": 4.0,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 105,
+    "id": 106,
+    "name": "Forest Spot 106",
+    "category": "forest",
+    "city": "Lansdowne",
+    "activities": [
+      "birdwatching",
+      "trekking"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 106,
+    "id": 107,
+    "name": "City Spot 107",
+    "category": "city",
+    "city": "Almora",
+    "activities": [
+      "shopping",
+      "museums"
+    ],
+    "rating": 4.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 107,
+    "id": 108,
+    "name": "Beach Spot 108",
+    "category": "beach",
+    "city": "Bageshwar",
+    "activities": [
+      "picnic",
+      "photography"
+    ],
+    "rating": 4.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 108,
+    "id": 109,
+    "name": "Beach Spot 109",
+    "category": "beach",
+    "city": "Almora",
+    "activities": [
+      "river-side relax",
+      "sunbathing"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 109,
+    "id": 110,
+    "name": "City Spot 110",
+    "category": "city",
+    "city": "Kausani",
+    "activities": [
+      "museums",
+      "food-tour"
+    ],
+    "rating": 4.0,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 110,
+    "id": 111,
+    "name": "Mountain Spot 111",
+    "category": "mountain",
+    "city": "Haridwar",
+    "activities": [
+      "scenic drives",
+      "mountain-climbing"
+    ],
+    "rating": 4.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 111,
+    "id": 112,
+    "name": "City Spot 112",
+    "category": "city",
+    "city": "Nainital",
+    "activities": [
+      "heritage walk",
+      "shopping"
+    ],
+    "rating": 4.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      2,
+      3,
+      6,
+      7,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 112,
+    "id": 113,
+    "name": "Forest Spot 113",
+    "category": "forest",
+    "city": "Rishikesh",
+    "activities": [
+      "hiking",
+      "wildlife"
+    ],
+    "rating": 3.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 113,
+    "id": 114,
+    "name": "River Spot 114",
+    "category": "river",
+    "city": "Mukteshwar",
+    "activities": [
+      "kayaking",
+      "rafting"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 114,
+    "id": 115,
+    "name": "River Spot 115",
+    "category": "river",
+    "city": "Lansdowne",
+    "activities": [
+      "fishing",
+      "swimming"
+    ],
+    "rating": 4.8,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 115,
+    "id": 116,
+    "name": "City Spot 116",
+    "category": "city",
+    "city": "Rishikesh",
+    "activities": [
+      "food-tour",
+      "shopping"
+    ],
+    "rating": 4.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 116,
+    "id": 117,
+    "name": "City Spot 117",
+    "category": "city",
+    "city": "Mukteshwar",
+    "activities": [
+      "museums",
+      "heritage walk"
+    ],
+    "rating": 3.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 117,
+    "id": 118,
+    "name": "Beach Spot 118",
+    "category": "beach",
+    "city": "Jim Corbett",
+    "activities": [
+      "river-side relax",
+      "sunbathing"
+    ],
+    "rating": 3.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 118,
+    "id": 119,
+    "name": "Mountain Spot 119",
+    "category": "mountain",
+    "city": "Lansdowne",
+    "activities": [
+      "photography",
+      "scenic drives"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 119,
+    "id": 120,
+    "name": "Mountain Spot 120",
+    "category": "mountain",
+    "city": "Rishikesh",
+    "activities": [
+      "mountain-climbing",
+      "photography"
+    ],
+    "rating": 4.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 120,
+    "id": 121,
+    "name": "River Spot 121",
+    "category": "river",
+    "city": "Almora",
+    "activities": [
+      "kayaking",
+      "swimming"
+    ],
+    "rating": 3.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 121,
+    "id": 122,
+    "name": "River Spot 122",
+    "category": "river",
+    "city": "Auli",
+    "activities": [
+      "fishing",
+      "kayaking"
+    ],
+    "rating": 3.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 122,
+    "id": 123,
+    "name": "Mountain Spot 123",
+    "category": "mountain",
+    "city": "Haridwar",
+    "activities": [
+      "scenic drives",
+      "hiking"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 123,
+    "id": 124,
+    "name": "Forest Spot 124",
+    "category": "forest",
+    "city": "Mukteshwar",
+    "activities": [
+      "hiking",
+      "wildlife"
+    ],
+    "rating": 4.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 124,
+    "id": 125,
+    "name": "Beach Spot 125",
+    "category": "beach",
+    "city": "Auli",
+    "activities": [
+      "river-side relax",
+      "photography"
+    ],
+    "rating": 4.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 125,
+    "id": 126,
+    "name": "Mountain Spot 126",
+    "category": "mountain",
+    "city": "Haridwar",
+    "activities": [
+      "photography",
+      "scenic drives"
+    ],
+    "rating": 3.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 126,
+    "id": 127,
+    "name": "River Spot 127",
+    "category": "river",
+    "city": "Haridwar",
+    "activities": [
+      "swimming",
+      "kayaking"
+    ],
+    "rating": 4.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 127,
+    "id": 128,
+    "name": "Mountain Spot 128",
+    "category": "mountain",
+    "city": "Haridwar",
+    "activities": [
+      "photography",
+      "hiking"
+    ],
+    "rating": 3.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 128,
+    "id": 129,
+    "name": "River Spot 129",
+    "category": "river",
+    "city": "Jim Corbett",
+    "activities": [
+      "rafting",
+      "fishing"
+    ],
+    "rating": 3.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 129,
+    "id": 130,
+    "name": "City Spot 130",
+    "category": "city",
+    "city": "Dehradun",
+    "activities": [
+      "heritage walk",
+      "museums"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 130,
+    "id": 131,
+    "name": "City Spot 131",
+    "category": "city",
+    "city": "Auli",
+    "activities": [
+      "museums",
+      "food-tour"
+    ],
+    "rating": 4.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      7,
+      8,
+      9,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 131,
+    "id": 132,
+    "name": "Forest Spot 132",
+    "category": "forest",
+    "city": "Bageshwar",
+    "activities": [
+      "trekking",
+      "hiking"
+    ],
+    "rating": 3.6,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 132,
+    "id": 133,
+    "name": "Beach Spot 133",
+    "category": "beach",
+    "city": "Lansdowne",
+    "activities": [
+      "sunbathing",
+      "picnic"
+    ],
+    "rating": 4.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 133,
+    "id": 134,
+    "name": "Forest Spot 134",
+    "category": "forest",
+    "city": "Valley of Flowers",
+    "activities": [
+      "hiking",
+      "trekking"
+    ],
+    "rating": 4.4,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 134,
+    "id": 135,
+    "name": "City Spot 135",
+    "category": "city",
+    "city": "Dehradun",
+    "activities": [
+      "heritage walk",
+      "food-tour"
+    ],
+    "rating": 3.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      2,
+      3,
+      4,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 135,
+    "id": 136,
+    "name": "Mountain Spot 136",
+    "category": "mountain",
+    "city": "Chopta",
+    "activities": [
+      "photography",
+      "scenic drives"
+    ],
+    "rating": 3.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 136,
+    "id": 137,
+    "name": "Beach Spot 137",
+    "category": "beach",
+    "city": "Kausani",
+    "activities": [
+      "picnic",
+      "sunbathing"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 137,
+    "id": 138,
+    "name": "River Spot 138",
+    "category": "river",
+    "city": "Haridwar",
+    "activities": [
+      "kayaking",
+      "rafting"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 138,
+    "id": 139,
+    "name": "River Spot 139",
+    "category": "river",
+    "city": "Auli",
+    "activities": [
+      "kayaking",
+      "swimming"
+    ],
+    "rating": 4.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 139,
+    "id": 140,
+    "name": "City Spot 140",
+    "category": "city",
+    "city": "Chopta",
+    "activities": [
+      "museums",
+      "heritage walk"
+    ],
+    "rating": 4.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 140,
+    "id": 141,
+    "name": "Forest Spot 141",
+    "category": "forest",
+    "city": "Auli",
+    "activities": [
+      "hiking",
+      "wildlife"
+    ],
+    "rating": 4.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      4,
+      5,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 141,
+    "id": 142,
+    "name": "City Spot 142",
+    "category": "city",
+    "city": "Rishikesh",
+    "activities": [
+      "heritage walk",
+      "food-tour"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 142,
+    "id": 143,
+    "name": "Beach Spot 143",
+    "category": "beach",
+    "city": "Jim Corbett",
+    "activities": [
+      "sunbathing",
+      "river-side relax"
+    ],
+    "rating": 4.0,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 143,
+    "id": 144,
+    "name": "City Spot 144",
+    "category": "city",
+    "city": "Haridwar",
+    "activities": [
+      "food-tour",
+      "heritage walk"
+    ],
+    "rating": 4.1,
+    "avg_cost": 0.0,
+    "best_months": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 144,
+    "id": 145,
+    "name": "River Spot 145",
+    "category": "river",
+    "city": "Almora",
+    "activities": [
+      "fishing",
+      "kayaking"
+    ],
+    "rating": 4.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 145,
+    "id": 146,
+    "name": "Mountain Spot 146",
+    "category": "mountain",
+    "city": "Lansdowne",
+    "activities": [
+      "mountain-climbing",
+      "scenic drives"
+    ],
+    "rating": 3.3,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      9,
+      10
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 146,
+    "id": 147,
+    "name": "City Spot 147",
+    "category": "city",
+    "city": "Nainital",
+    "activities": [
+      "heritage walk",
+      "shopping"
+    ],
+    "rating": 4.2,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 147,
+    "id": 148,
+    "name": "Beach Spot 148",
+    "category": "beach",
+    "city": "Auli",
+    "activities": [
+      "sunbathing",
+      "picnic"
+    ],
+    "rating": 3.7,
+    "avg_cost": 0.0,
+    "best_months": [
+      5,
+      6
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 148,
+    "id": 149,
+    "name": "River Spot 149",
+    "category": "river",
+    "city": "Bageshwar",
+    "activities": [
+      "kayaking",
+      "rafting"
+    ],
+    "rating": 3.5,
+    "avg_cost": 0.0,
+    "best_months": [
+      3,
+      6,
+      9
+    ],
+    "user_score": 5.0
+  },
+  {
+    "idx": 149,
+    "id": 150,
+    "name": "Forest Spot 150",
+    "category": "forest",
+    "city": "Dehradun",
+    "activities": [
+      "trekking",
+      "birdwatching"
+    ],
+    "rating": 3.9,
+    "avg_cost": 0.0,
+    "best_months": [
+      4,
+      5,
+      9
+    ],
+    "user_score": 5.0
+  }
+]

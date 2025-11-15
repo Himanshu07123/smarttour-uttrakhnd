@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Uttarakhand Tourism Recommender</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Minimal styles */
+    body{font-family:Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#f0f7ff,#fff0f6);margin:0;padding:20px}
+    .container{max-width:1100px;margin:0 auto}
+    .header{text-align:center;margin-bottom:18px}
+    .grid{display:grid;grid-template-columns:1fr 2fr;gap:16px}
+    .panel{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    select,input[type=range]{width:100%;padding:8px;margin-top:6px;border-radius:6px;border:1px solid #ddd}
+    button{width:100%;padding:10px;border:0;border-radius:8px;background:linear-gradient(90deg,#2563eb,#7c3aed);color:#fff;font-weight:700;cursor:pointer}
+    .result{background:#fff;padding:12px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.04);margin-bottom:10px}
+    .muted{color:#6b7280}
+  </style>
+
+  <!-- React + ReactDOM UMD -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <!-- Babel to transform JSX in-browser -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="root"></div>
+  </div>
+
+  <script type="text/babel" data-presets="react">
+    const { useState, useEffect } = React;
+
+    function App(){
+      const [activity, setActivity] = useState('');
+      const [city, setCity] = useState('');
+      const [month, setMonth] = useState('');
+      const [maxBudget, setMaxBudget] = useState(200);
+      const [results, setResults] = useState([]);
+      const [loading, setLoading] = useState(false);
+
+      const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+      const handleRecommend = async () => {
+        setLoading(true);
+        try {
+          const res = await fetch('http://127.0.0.1:5000/recommend', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              activity,
+              city,
+              month: month || null,
+              max_budget: maxBudget,
+              top_k: 8
+            })
+          });
+          const data = await res.json();
+          setResults(data.results || []);
+        } catch (err) {
+          console.error(err);
+          alert('Could not contact recommendation API. Make sure python api.py is running on localhost:5000');
+        } finally {
+          setLoading(false);
+        }
+      };
+
+      useEffect(()=> {
+        // optionally load a small dropdown set from server later
+      },[]);
+
+      return (
+        <div>
+          <div className="header">
+            <h1>Uttarakhand Tourism Recommender</h1>
+            <p className="muted">Server-trained TF-IDF + numeric features recommendation (Flask API)</p>
+          </div>
+
+          <div className="grid">
+            <div className="panel">
+              <h3>Preferences</h3>
+              <label className="muted">Activity</label>
+              <input value={activity} onChange={e=>setActivity(e.target.value)} placeholder="e.g. rafting" />
+              <label className="muted" style={{marginTop:8}}>City</label>
+              <input value={city} onChange={e=>setCity(e.target.value)} placeholder="e.g. Rishikesh" />
+              <label className="muted" style={{marginTop:8}}>Best Month</label>
+              <select value={month} onChange={e=>setMonth(e.target.value)}>
+                <option value="">Any</option>
+                {monthNames.map((m,i)=> <option key={i+1} value={i+1}>{m}</option>)}
+              </select>
+              <label className="muted" style={{marginTop:8}}>Max Budget: ₹{maxBudget}</label>
+              <input type="range" min="20" max="200" value={maxBudget} onChange={e=>setMaxBudget(parseInt(e.target.value))} />
+              <div style={{marginTop:12}}>
+                <button onClick={handleRecommend}>{loading? 'Searching...' : 'Get Recommendations'}</button>
+              </div>
+            </div>
+
+            <div>
+              <div className="panel" style={{minHeight:180}}>
+                {results.length === 0 ? (
+                  <div style={{textAlign:'center',paddingTop:26}}>
+                    <p className="muted">No results yet — set preferences and click Get Recommendations</p>
+                  </div>
+                ) : (
+                  results.map((dest, idx) => (
+                    <div key={idx} className="result">
+                      <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+                        <div>
+                          <div style={{fontWeight:700}}>{idx+1}. {dest.name}</div>
+                          <div className="muted">{dest.category} • {dest.city}</div>
+                        </div>
+                        <div style={{textAlign:'right'}}>
+                          <div style={{fontWeight:700}}>₹{dest.avg_cost}</div>
+                          <div className="muted">Rating: {dest.rating}</div>
+                        </div>
+                      </div>
+                      <div style={{marginTop:8}}>
+                        <div className="muted" style={{fontSize:11}}>ACTIVITIES</div>
+                        <div style={{marginTop:6}}>{(dest.activities || []).join(', ')}</div>
+                      </div>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>

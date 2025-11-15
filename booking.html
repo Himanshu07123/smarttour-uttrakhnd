@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Form</title>
+    <link rel="stylesheet" type="text/css" href="css/booking.css">
+    <script>
+        function validateForm() {
+            var fn = document.getElementById('data_3').value.trim();
+            var ln = document.getElementById('data_4').value.trim();
+            var em = document.getElementById('data_5').value.trim();
+            if (!fn || !ln || !em) {
+                alert('Please fill all required fields!');
+                return false;
+            }
+            if (!validateEmail(em)) {
+                alert('Invalid email address!');
+                return false;
+            }
+            return true;
+        }
+        function validateEmail(email) {
+            var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <ul>
+            <ul class="list">
+                <li class="logo"><a href="mainPage.html"><img src="earth-globe.png" alt="Logo" style="width:36px;height:36px"></a></li>
+            </ul>
+            <ul class="list2">
+                <li><a href="mainPage.html">Home</a></li>
+                <li><a href="destination.html">Destination</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active-menu"><a href="booking.html">Booking</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </ul>
+    </div>
+
+    <form method="POST" action="booking_save.php" onsubmit="return validateForm()">
+        <div class="login-box">
+            <h1>Tour Booking Form</h1>
+
+            <div class="textbox">
+                <input type="text" id="data_3" name="ffirst" placeholder="First Name" required>
+            </div>
+
+            <div class="textbox">
+                <input type="text" id="data_4" name="flast" placeholder="Last Name" required>
+            </div>
+
+            <div class="textbox">
+                <input type="email" id="data_5" name="femail" placeholder="Email" required>
+            </div>
+
+            <div class="textbox">
+                <input type="text" name="city" placeholder="City" required>
+            </div>
+
+            <div class="textbox">
+                <input type="tel" name="fphone" placeholder="Phone" required>
+            </div>
+
+            <div class="textbox">
+                <input type="text" name="fdesti" placeholder="Destination" required>
+            </div>
+
+            <input class="btn" type="submit" value="Book Now">
+        </div>
+    </form>
+</body>
+</html>

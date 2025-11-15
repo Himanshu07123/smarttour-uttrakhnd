@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/destination.css">
+    <title>Destinations</title>
+    <style type="text/css">
+        .container .box .name-text input{
+            position: relative;
+            display: none;
+            background: transparent;
+            border: 1px solid #fff;
+            top: -20px;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.6s ease;
+            text-align: center;
+        }
+        .btn{
+            padding: 5px 40px;
+        }
+        .btn1{
+            margin: 0px -20px;
+            padding: 5px 40px;
+        }
+        .btn2{
+            padding: 5px 60px;
+        }
+        .btn3{
+            padding: 5px 37px;
+            margin: 0px -2px;
+        }
+        .btn4{
+            padding: 5px 50px;
+        }
+        .btn5{
+            padding: 5px 25px;
+        }
+        .container .box:hover .name-text input{
+            display: block;
+            top: -20px;
+        }
+        .container .box .name-text input:hover{
+            background-color: #fff;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Popular Destinations</h1>
+    <div class="main">
+        <ul>
+          <ul class="list">
+            <li class="logo"><a href="mainPage.html"><img src="earth-globe.png" alt="Logo" style="width:36px;height:36px"></a></li>
+            <div class="search">
+                <form method="POST" action="info.php">
+                  <input type="text" name="search_p" placeholder="Search.." size="50">
+                  <input type="image" name="submit_p" src="search_icon.png" alt="Search image" style="width:22px;height:22px; margin-left: 35px;">
+                </form>
+              </div>
+          </ul>
+          <ul class="list2">
+            <li><a href="mainPage.html">Home</a></li>
+            <li class="active-menu"><a id="long" href="destination.html">Destination</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="Recommendation.jsx.html">Recommendation</a></li>
+            <li><a href="index.html">Logout</a></li>
+          </ul>
+        </ul>
+    </div>
+    <div class="container">
+        <!-- Pindari -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/pindari1.jpg" alt="Pindari Glacier" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading1 top1">
+                <h1>Pindari</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="pindari" class="btn1" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Kausani -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/kausani1.jpg" alt="Kausani Tea Garden" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading2 top1">
+                <h1>Kausani</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="kausani" class="btn" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Kedartal -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/kedartal1.jpg" alt="Kedartal Lake" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading3 top1">
+                <h1>kedartal</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="kedartal" class="btn" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Roopkund -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/roopkund1.jpg" alt="Roopkund Lake" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading4 top1">
+                <h1>Roopkund</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="roopkund" class="btn" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Niti -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/niti1.jpg" alt="Niti Pass" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading5 top2">
+                <h1>Niti</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="niti" class="btn5" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Ruinsara Tal -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/ruinsara1.jpg" alt="Ruinsara Lake" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading6 top2">
+                <h1>Ruinsara tal</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="ruinsara" class="btn2" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Bedeni -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/bedeni1.jpg" alt="Bedeni Bugyal" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading7 top2">
+                <h1>Bedeni</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="bedeni" class="btn3" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Khaliya Top -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/khaliya1.jpg" alt="Khaliya Top" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading8 top2">
+                <h1>khaliya Top</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="khaliya" class="btn2" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Ali-Bugyal -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/alibugyal1.jpg" alt="Ali-Bugyal Meadow" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading9 top3">
+                <h1>Ali-Bugyal</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="alibugyal" class="btn3" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Ranthan Trek -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/ranthan1.jpg" alt="Ranthan Trek" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading10 top3">
+                <h1>Ranthan trek</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="ranthan" class="btn4" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Patalbhuvaneshwar -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/patalbhuvnasar1.jpg" alt="Patalbhuvaneshwar Cave" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading11 top3">
+                <h1>Patalbhuvnasar</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="patalbhuvnasar" class="btn4" value="Visit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Harsil -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="images/destination/harsil1.jpg" alt="Harsil Village" style="width: auto;height: 270px;">
+            </div>
+            <div class="name-text name-pading12 top3">
+                <h1>Harsil</h1>
+                <form method="POST" action="info.php">
+                    <input type="submit" name="harsil" class="btn2" value="Visit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
